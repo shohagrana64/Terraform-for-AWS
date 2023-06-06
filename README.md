@@ -18,4 +18,7 @@ terraform plan -out
 
 //deploy the execution plan
 terraform apply
+
+// delete all resources configured by terraform
+terraform destroy
 ```
